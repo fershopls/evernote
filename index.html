@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Evernote</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
+	<link rel="stylesheet" href="assets/css/fonts.css">
+	<link rel="stylesheet" href="bower_components/skeleton/css//skeleton.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+	<script src="bower_components/underscore/underscore-min.js"></script>
+	<script src="bower_components/backbone/backbone.js"></script>
+
+</head>
+<body>
+
+	<section class="document-app">
+		<div class="row">
+			<div class="document-navbar four columns">
+				<div class="row">
+					<div class="document-menu twelve columns">
+						<div class="container">
+							<button class="document-menu-toggle"><i class="fa fa-bars"></i></button>
+							<h5 class="document-menu-title">Documents</h5>
+							<button class="document-menu-button button-sm button-fa" type="button" name="button"><i class="fa fa-plus"></i> new</button>
+						</div>
+					</div>
+				</div>
+				<div id="document-item-container" class="document-item-container document-item-container-hidden container">
+					<div style="margin:50px"></div>
+					<div class="document-item-container-text-muted">Be creative</div>
+				</div>
+			</div>
+
+
+			<div class="document-editor eight columns" data-id="">
+				<div class="container">
+					
+					<!-- evernote NoteView -->
+					<input class="document-editor-title removeInputStyle h2" placeholder="Title your new note"/>
+					<div class="document-editor-border-bottom"></div>
+					<div class="document-editor-bar">
+						<div class="document-editor-status">Loaded at 8:13</div>
+					</div>
+					
+					<div class="document-editor-content" contentEditable="true">
+						Let your ideas flow..
+					</div>
+					<!-- evernote end -->
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="assets/js/main.js"></script>
+
+</body>
+</html>
