@@ -53,7 +53,11 @@ textarea
 .button-sm
 	line-height 28px
 	height 28px
-	font-size 11px
+	font-size 12px
+	.fa
+		font-size 11px!important
+		padding 0 11px!important
+		line-height 28px!important
 .button-circle
 	border-radius 50%
 	width 24px
@@ -84,7 +88,7 @@ $color-text-muted = #aaa
 		height 100%
 	.document-editor
 		height 80%
-		margin-top 77px
+		//margin-top 77px
 	.document-menu
 		padding 20px 0
 		border-bottom 1px solid #F1F1F1
@@ -94,9 +98,6 @@ $color-text-muted = #aaa
 			position absolute
 			right 20px
 			padding 0 20px 0 40px
-			.fa
-				font-size 11px
-				padding 9px 10px
 	.document-navbar
 		&.document-navbar-collapsed
 				width 0px
@@ -169,6 +170,9 @@ $color-text-muted = #aaa
 			font-size 13px
 			.document-editor-tools
 				display none
+		.document-editor-status
+			font-size 12px
+			text-transform uppercase
 		.document-editor-content
 			text-align left
 			width 100%
@@ -209,10 +213,11 @@ $color-text-muted = #aaa
 	.document-editor
 		padding-top 0px!important
 		.document-editor-navbar
-			height 58px
-			line-height 58px
-			border-bottom 1px solid #f1f1f1
-			margin-bottom 40px
+			height 77px
+			line-height @height
+			// border-bottom 1px solid #f1f1f1
+			margin-bottom 10px
+			text-align right
 		.document-editor-title
 			font-size 4em
 		.document-editor-bar

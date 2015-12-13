@@ -1,0 +1,979 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"notes",
+				"notesView"
+			],
+			[
+				"not",
+				"notesView"
+			],
+			[
+				"note",
+				"noteItem"
+			],
+			[
+				"get",
+				"getDescription"
+			],
+			[
+				"bidn",
+				"bindAll"
+			],
+			[
+				"save",
+				"saveOnEnter"
+			],
+			[
+				"document",
+				"document-editor"
+			],
+			[
+				"editor",
+				"editorView"
+			],
+			[
+				"add",
+				"addItem"
+			],
+			[
+				"No",
+				"NotesView"
+			],
+			[
+				"Notes",
+				"NotesView"
+			],
+			[
+				"append",
+				"appendItem"
+			],
+			[
+				"doucment",
+				"document-item-content"
+			],
+			[
+				"Note",
+				"NoteItem"
+			],
+			[
+				"document-item",
+				"document-item-container"
+			],
+			[
+				"document-edito",
+				"document-editor-content-placeholder"
+			],
+			[
+				"color",
+				"color-text-muted"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"docui",
+				"document-editor"
+			],
+			[
+				"document-editor",
+				"document-editor-content"
+			],
+			[
+				"docume",
+				"document-app"
+			],
+			[
+				"rando",
+				"generateRandomId"
+			],
+			[
+				"elemen",
+				"elements"
+			],
+			[
+				"docu",
+				"document"
+			],
+			[
+				"doc",
+				"document_index"
+			],
+			[
+				"e",
+				"element"
+			],
+			[
+				"app",
+				"app_config"
+			],
+			[
+				"ge",
+				"getDocument"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"documen",
+				"documents_stored"
+			],
+			[
+				"body",
+				"body_cache"
+			],
+			[
+				"s",
+				"stringify"
+			],
+			[
+				"background",
+				"background-clip"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"inco",
+				"invoice_id"
+			],
+			[
+				"invo",
+				"invoice_id"
+			],
+			[
+				"inc",
+				"invoice_id"
+			],
+			[
+				"in",
+				"invoice_id"
+			],
+			[
+				"book",
+				"booking_id"
+			],
+			[
+				"bookin",
+				"booking_name"
+			],
+			[
+				"status",
+				"status_name"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"Rese",
+				"ReservationAdmin"
+			],
+			[
+				"arrival",
+				"arrival_at"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"url",
+				"urlencoded"
+			],
+			[
+				"company",
+				"company_name"
+			],
+			[
+				"Entry",
+				"EntryAdmin"
+			],
+			[
+				"question",
+				"question_id"
+			],
+			[
+				"frctions",
+				"fractions"
+			],
+			[
+				"module",
+				"module_name"
+			],
+			[
+				"denominator",
+				"denominator_common"
+			],
+			[
+				"script",
+				"script_path"
+			],
+			[
+				"scrit",
+				"script_response"
+			],
+			[
+				"print",
+				"print	print"
+			],
+			[
+				"to",
+				"toLower"
+			],
+			[
+				"frac",
+				"fraction2_numerator"
+			],
+			[
+				"fra",
+				"fraction1_numerator"
+			],
+			[
+				"glo",
+				"global_numerator"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2262,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/js/main.js",
+			"settings":
+			{
+				"buffer_size": 4864,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/stylus/main.styl",
+			"settings":
+			{
+				"buffer_size": 4972,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "stylu",
+		"selected_items":
+		[
+			[
+				"stylu",
+				"Set Syntax: Stylus"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"twig",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"Django: mi",
+				"Django: Migrate App"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"twi",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"tw",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"html",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"save all",
+				"File: Save All"
+			],
+			[
+				"t",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"blade",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 408.0
+	},
+	"console":
+	{
+		"height": 118.0,
+		"history":
+		[
+			"exit",
+			"System.out.println(\"hello\");",
+			"print \"123\";",
+			"puts \"123\";",
+			"print 123;",
+			"download",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/XaZal/Google Drive/Open Source/Evernote/Backbone",
+		"/C/Users/XaZal/Google Drive/Open Source/Evernote/Backbone/assets/css",
+		"/C/Users/XaZal/Google Drive/Open Source/Evernote/Backbone/assets/js",
+		"/C/Users/XaZal/Google Drive/Open Source/Evernote/Backbone/bower_components/font-awesome/css",
+		"/C/Users/XaZal/Google Drive/Open Source/Evernote/Backbone/bower_components/skeleton/css"
+	],
+	"file_history":
+	[
+		"/C/Users/XaZal/Google Drive/Open Source/Evernote/Backbone/assets/stylus/main.styl",
+		"/C/Users/XaZal/Google Drive/Open Source/Evernote/Backbone/assets/css/main.css",
+		"/C/Users/XaZal/Google Drive/Open Source/Evernote/Backbone/assets/css/fonts.css",
+		"/C/Users/XaZal/Google Drive/Open Source/Evernote/Backbone/bower.json",
+		"/C/Users/XaZal/Google Drive/Open Source/Evernote/AngularJS/css/fonts.css",
+		"/C/Users/XaZal/Google Drive/Open Source/Evernote/Backbone/evernote.sublime-project",
+		"/C/Users/XaZal/Google Drive/Open Source/Evernote/index.html",
+		"/C/Users/XaZal/Google Drive/Open Source/Evernote/stylus/main.styl",
+		"/C/Users/XaZal/Google Drive/Open Source/Evernote/css/skeleton.css",
+		"/C/Users/XaZal/Google Drive/Open Source/Evernote/js/document.js",
+		"/C/Users/XaZal/Google Drive/Open Source/Evernote/docview.html",
+		"/C/Users/XaZal/Desktop/editor/css/main.css",
+		"/C/Users/XaZal/AppData/Local/Temp/Rar$EXb0.777/elesho.html",
+		"/C/Users/XaZal/Desktop/editor/css/skeleton.css",
+		"/C/Users/XaZal/Desktop/editor/stylus/main.stylus",
+		"/C/Users/XaZal/Desktop/editor/mindmap.xmind",
+		"/C/Users/XaZal/Desktop/editor/stylus/main.css",
+		"/C/Users/XaZal/Desktop/editor/js/DocumentModel.js",
+		"/C/Users/XaZal/Desktop/editor/index.html",
+		"/C/Users/XaZal/Desktop/editor/js/document.js",
+		"/C/Users/XaZal/Desktop/editor/doc.html",
+		"/C/Users/XaZal/Desktop/editor/js/DocumentModelTests.js",
+		"/C/Users/XaZal/Google Drive/Itesm/Fundamentos de Matemáticas/propiedades de los numeros.js",
+		"/C/Users/XaZal/Desktop/editor/css/fonts.css",
+		"/C/Users/XaZal/Desktop/editor/js/main.js",
+		"/C/Users/XaZal/Desktop/editor/js/date.js",
+		"/C/Users/XaZal/Desktop/mcm.php",
+		"/C/Users/XaZal/Google Drive/Microplan/CasaLamat/Bitácora casa lamat con fer.gdoc",
+		"/C/Users/XaZal/python/projects/karina/src/hotel_reservations/views.py",
+		"/C/Users/XaZal/python/projects/karina/src/hotel_reservations/models.py",
+		"/C/Users/XaZal/python/projects/karina/src/templates/home.html",
+		"/C/Windows/system32/http",
+		"/C/Users/XaZal/python/projects/karina/src/karina/settings.py",
+		"/C/Users/XaZal/python/projects/karina/src/karina/urls.py",
+		"/C/Users/XaZal/python/projects/karina/src/templates/payment.html",
+		"/C/Users/XaZal/python/projects/karina/src/hotel_reservations/templates/confirmation.html",
+		"/C/Users/XaZal/python/projects/karina/src/templates/reservation_view.html",
+		"/C/Users/XaZal/python/projects/django/src/callcenter/views.py",
+		"/C/Users/XaZal/python/projects/django/src/newsletter/views.py",
+		"/C/Users/XaZal/python/projects/karina/lib/python2.7/site-packages/payments/models.py",
+		"/C/Users/XaZal/python/projects/django/src/newsletter/templates/home.html",
+		"/C/Users/XaZal/python/projects/karina/src/templates/base.html",
+		"/C/Users/XaZal/python/projects/karina/src/templates/home - copia.html",
+		"/C/Users/XaZal/python/projects/karina/src/hotel_reservations/admin.py",
+		"/C/Users/XaZal/python/projects/django/src/trydjango18/settings.py",
+		"/C/Users/XaZal/python/projects/qblog/blog/views.py",
+		"/C/Users/XaZal/python/projects/django/src/callcenter/models.py",
+		"/C/Users/XaZal/python/projects/qblog/blog/models.py",
+		"/C/Users/XaZal/python/projects/django/src/newsletter/admin.py",
+		"/C/Users/XaZal/python/projects/django/src/newsletter/models.py",
+		"/C/wamp/www/localhost/public/less/main.less",
+		"/C/Users/XaZal/python/projects/chrome/todo.html",
+		"/C/wamp/www/localhost/app/views/home.blade.php",
+		"/C/Users/XaZal/python/projects/karina/manage.py",
+		"/C/wamp/www/localhost/public/less/bootstrap.less",
+		"/C/wamp/www/localhost/public/css/main.css",
+		"/C/wamp/www/localhost/app/views/base.blade.php",
+		"/C/wamp/www/localhost/public/index.php",
+		"/C/wamp/www/localhost/app/urls.php",
+		"/C/wamp/www/localhost/app/view/home.html",
+		"/C/wamp/www/localhost/app/view/home.blade.php",
+		"/C/wamp/www/localhost/composer.json",
+		"/C/wamp/www/localhost/public/.htaccess",
+		"/C/wamp/www/bowayas/public/.htaccess",
+		"/C/Users/XaZal/python/projects/django/src/callcenter/templates/callcenter/phonesession/create.html",
+		"/C/Users/XaZal/python/projects/qblog/blog/urls.py",
+		"/C/Users/XaZal/python/projects/qblog/qblog/urls.py",
+		"/C/Users/XaZal/python/projects/django/src/callcenter/templates/callcenter/home.html",
+		"/C/Users/XaZal/python/projects/django/src/trydjango18/urls.py",
+		"/C/Users/XaZal/python/projects/django/src/callcenter/templates/callcenter/base.html",
+		"/C/Users/XaZal/python/projects/django/src/callcenter/admin.py",
+		"/C/Users/XaZal/python/projects/django/src/callcenter/urls.py",
+		"/C/Users/XaZal/python/projects/django/src/callcenter/forms.py",
+		"/C/Users/XaZal/python/projects/django/src/callcenter/templates/callcenter/company/create.html",
+		"/C/Users/XaZal/python/projects/django/src/newsletter/forms.py",
+		"/C/Users/XaZal/python/projects/django/src/templates/home.html",
+		"/C/Users/XaZal/python/projects/qblog/templates/home.html",
+		"/C/Users/XaZal/python/projects/qblog/blog/admin.py",
+		"/C/Users/XaZal/python/projects/qblog/templates/base.html",
+		"/C/Users/XaZal/python/projects/qblog/templates/post.html",
+		"/C/Users/XaZal/python/projects/qblog/qblog/settings.py",
+		"/C/Users/XaZal/python/projects/qblog/blog/feed.py",
+		"/C/Users/XaZal/AppData/Local/Temp/Rar$EXa0.599/startbootstrap-clean-blog-1.0.3/post.html",
+		"/C/Users/XaZal/AppData/Local/Temp/Rar$EXa0.103/startbootstrap-clean-blog-1.0.3/index.html",
+		"/C/Users/XaZal/python/paypal/__main__.py",
+		"/C/Users/XaZal/python/webpy/polls/urls.py",
+		"/C/Users/XaZal/python/webpy/polls/models.py",
+		"/C/Users/XaZal/python/webpy/polls/views.py",
+		"/C/Users/XaZal/python/webpy/polls/admin.py",
+		"/C/Users/XaZal/python/webpy/polls/admin.pyc",
+		"/C/Users/XaZal/python/webpy/webpy/urls.py",
+		"/C/Users/XaZal/python/webpy/webpy/settings.py",
+		"/C/Users/XaZal/Desktop/random.php",
+		"/C/Users/XaZal/python/webpy/templates/admin/base_site.html",
+		"/C/Users/XaZal/python/webpy/webpy/templates/manage.py",
+		"/C/Users/XaZal/python/webpy/polls/migrations/0001_initial.py",
+		"/C/Users/XaZal/python/cli/__main__.py",
+		"/C/Users/XaZal/python/cli/app/modules/global.py",
+		"/C/Users/XaZal/python/fuck.py",
+		"/C/Users/XaZal/python/cli/app/cli/CommandLine.py",
+		"/C/Users/XaZal/python/cli/app/modules/fractions/fraction.py",
+		"/C/Users/XaZal/python/cli/app/modules/fractions/__init__.py",
+		"/C/Users/XaZal/python/cli/README.md",
+		"/C/Users/XaZal/python/cli/app/modules/fractions.py",
+		"/C/Users/XaZal/python/cli/app/modules/Fractions.py",
+		"/C/Users/XaZal/python/Fractions/__main__.py",
+		"/C/Users/XaZal/python/Fractions/src/commander.py",
+		"/C/Users/XaZal/python/what.py",
+		"/C/Users/XaZal/python/raja.py3",
+		"/C/Users/XaZal/python/main.py",
+		"/C/Users/XaZal/python/Fractions_simplified/minified.py",
+		"/C/Users/XaZal/python/window/window.py",
+		"/C/Shaaf/bin/kivy.bat",
+		"/C/Users/XaZal/python/Fractions_simplified/fraction.py",
+		"/C/Users/XaZal/python/Fractions_simplified/commander.py",
+		"/C/Users/XaZal/python/Fractions/src/fraction.py",
+		"/C/Users/XaZal/python/Fractions/whaiaosdj.py",
+		"/C/Users/XaZal/python/Fractions/routes.py",
+		"/C/Users/XaZal/python/Fractions/main.py",
+		"/C/Users/XaZal/python/Fractions/src/Fraction/Fraction.py",
+		"/C/Users/XaZal/python/Fractions/src/__init__.py",
+		"/C/Users/XaZal/python/whats.py",
+		"/C/Users/XaZal/python/print.py",
+		"/C/Users/XaZal/python/run.py",
+		"/C/Users/XaZal/python/layer.py",
+		"/C/Users/XaZal/Google Drive/Open Source/FershoPls/Fractions/bootstrap/authentification.php",
+		"/C/wamp/www/localhost/resources/views/snippets/footer.blade.php",
+		"/C/wamp/www/localhost/resources/views/layout.blade.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"method",
+			"title",
+			"document-item",
+			"item",
+			"'.document-editor'",
+			"({\n",
+			"'.document-editor'",
+			"item",
+			"this.el",
+			";",
+			"()\n",
+			"¶",
+			"83",
+			"\"",
+			"ng-",
+			"ng",
+			"editor",
+			"document-item-container",
+			"document-title",
+			"status",
+			"selector",
+			"document-editor",
+			"element",
+			"href",
+			"span",
+			"hr",
+			"style",
+			"h6",
+			"#editor",
+			": ",
+			":",
+			"}",
+			"{",
+			"this.database.document_index",
+			"getAsObject",
+			"object.id",
+			"validate",
+			"	this.",
+			"this",
+			"object",
+			"h1",
+			"button",
+			"doc_id",
+			"h4",
+			"h3",
+			"doSave",
+			":focus",
+			"hr",
+			"config",
+			"app_config",
+			"config",
+			"app_config",
+			"id",
+			"this.id",
+			"Id",
+			"id",
+			"content",
+			"documents_stored",
+			"configuration",
+			"element",
+			"title",
+			"localstorage",
+			"ul",
+			"center",
+			"text-center",
+			"\n	<link rel=\"stylesheet\" href=\"css/main.css\">",
+			"<link rel=\"stylesheet\" href=\"css/main.css\">",
+			"Monserrat",
+			"border: 1px solid #FFF;",
+			"#FFF",
+			"text-center",
+			"start",
+			"h3",
+			"margin-top: 10px",
+			" style=\"margin-top: 15px\"",
+			"h4",
+			"h5",
+			"h1",
+			"twelve.columns",
+			"status_available",
+			"paypalrestsdk",
+			"button",
+			"{'",
+			", '",
+			"not",
+			"td",
+			"arrival_range",
+			"div",
+			"\", \"",
+			"Status",
+			"State",
+			"state",
+			"State",
+			"Room",
+			"booking_name",
+			"header nav",
+			"todo",
+			"nbsp",
+			"right",
+			"box",
+			"h2",
+			"ul",
+			"<li>",
+			"blade",
+			"blade.",
+			".blade.",
+			"__DIR__",
+			"html",
+			"[\"raw\"]",
+			"pattern",
+			"company",
+			"Company",
+			"id",
+			"a",
+			"full_name",
+			"h2",
+			"date",
+			"subtitle",
+			"Blog",
+			"h3",
+			"span",
+			"setResultSetSize",
+			"PX",
+			"link.href=\"/image-search/v1/javascript:imageSearch.gotoPage(\"+i+');';\n",
+			"object.subheading",
+			"subheading",
+			"pag",
+			"img"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2099,
+								2099
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1044.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1278,
+								1278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 961.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/stylus/main.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4972,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4527,
+								4527
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5790.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 24.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "evernote.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ma",
+				"assets\\stylus\\main.styl"
+			],
+			[
+				"main",
+				"assets\\stylus\\main.styl"
+			],
+			[
+				"home",
+				"templates\\home.html"
+			],
+			[
+				"view.",
+				"templates\\reservation_view.html"
+			],
+			[
+				"view",
+				"hotel_reservations\\views.py"
+			],
+			[
+				"setting",
+				"karina\\settings.py"
+			],
+			[
+				"urls",
+				"karina\\urls.py"
+			],
+			[
+				"model",
+				"hotel_reservations\\models.py"
+			],
+			[
+				"paymen",
+				"templates\\payment.html"
+			],
+			[
+				"views",
+				"hotel_reservations\\views.py"
+			],
+			[
+				"set",
+				"karina\\settings.py"
+			],
+			[
+				"models",
+				"hotel_reservations\\models.py"
+			],
+			[
+				"settings",
+				"karina\\settings.py"
+			],
+			[
+				"settin",
+				"karina\\settings.py"
+			],
+			[
+				"ereserva",
+				"templates\\reservation_view.html"
+			],
+			[
+				"sett",
+				"karina\\settings.py"
+			],
+			[
+				"base",
+				"templates\\base.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 220.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

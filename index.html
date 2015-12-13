@@ -13,6 +13,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
 
+	<script src="bower_components/moment/moment.js"></script>
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 
 	<script src="bower_components/underscore/underscore-min.js"></script>
@@ -43,12 +44,16 @@
 			<div class="document-editor eight columns">
 				<div class="container">
 					
+					<div class="document-editor-navbar">
+						<button class="button-sm button-fa delete"><i class="fa fa-trash"></i> DELETE</button>
+					</div>
+
 					<!-- evernote NoteView -->
 					<input class="document-editor-title removeInputStyle h2" placeholder="Title your new note"/>
 					
 					<div class="document-editor-border-bottom"></div>
 					<div class="document-editor-bar">
-						<div class="document-editor-status">Loaded at 8:13</div>
+						<div class="document-editor-status">NEW DOCUMENT</div>
 					</div>
 					
 					<div class="document-editor-content" tabindex="1" data-ph="Write your ideas.." contentEditable="true"></div>
@@ -60,7 +65,7 @@
 	</section>
 
 
-	<script src="assets/js/main.js"></script>
+	<script src="assets/js/evernote.js"></script>
 
 </body>
 </html>

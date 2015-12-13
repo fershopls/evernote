@@ -66,7 +66,12 @@ textarea {
 .button-sm {
   line-height: 28px;
   height: 28px;
-  font-size: 11px;
+  font-size: 12px;
+}
+.button-sm .fa {
+  font-size: 11px !important;
+  padding: 0 11px !important;
+  line-height: 28px !important;
 }
 .button-circle {
   border-radius: 50%;
@@ -102,7 +107,6 @@ textarea {
 }
 .document-app .document-editor {
   height: 80%;
-  margin-top: 77px;
 }
 .document-app .document-menu {
   padding: 20px 0;
@@ -115,10 +119,6 @@ textarea {
   position: absolute;
   right: 20px;
   padding: 0 20px 0 40px;
-}
-.document-app .document-menu .document-menu-button .fa {
-  font-size: 11px;
-  padding: 9px 10px;
 }
 .document-app .document-navbar.document-navbar-collapsed {
   width: 0px;
@@ -212,6 +212,10 @@ textarea {
 .document-app .document-editor .document-editor-bar .document-editor-tools {
   display: none;
 }
+.document-app .document-editor .document-editor-status {
+  font-size: 12px;
+  text-transform: uppercase;
+}
 .document-app .document-editor .document-editor-content {
   text-align: left;
   width: 100%;
@@ -254,10 +258,10 @@ textarea {
     padding-top: 0px !important;
   }
   .document-editor .document-editor-navbar {
-    height: 58px;
-    line-height: 58px;
-    border-bottom: 1px solid #f1f1f1;
-    margin-bottom: 40px;
+    height: 77px;
+    line-height: 77px;
+    margin-bottom: 10px;
+    text-align: right;
   }
   .document-editor .document-editor-title {
     font-size: 4em;

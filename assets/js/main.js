@@ -2,17 +2,32 @@
 (function($){
 
   Backbone.sync = function(method, model, success, error){
-  	console.log("method: ", method)
-  	console.log("model: ", model)
+  	switch (method) {
+  		case "update":
+	  		localStorage.setItem(model.id, JSON.stringify(model.attributes))
+	  		break;
+
+  		case "read":
+	  		$.each(localStorage, function (key, value){
+	  			/^[0-9]{4}-[0-9]{4}$/.test(key) && model.add(JSON.parse(value));
+	  		})
+	  		break;
+
+  		default:
+  			console.log(method, model)
+  			break;
+  	}
   	can_exit = true
-    success();
+    //success();
   }
 
   var NoteItem = Backbone.Model.extend({
     defaults: {
     	id: null,
       title: 'Untitled',
-      content: 'Empty note'
+      content: 'Empty note',
+      updated_at: null,
+      created_at: null,
     },
 
     initialize: function() {
@@ -20,7 +35,7 @@
     },
 
     getDescription: function() {
-    	html = this.get('content').replace(/(<\/div>|<br>|[\n\r])/gi, " ")
+    	html = this.get('content').replace(/(<\/div>|<br>|[\n\r])/gi, " "),
 		  var tmp = document.createElement("DIV");
 		  tmp.innerHTML = html;
 		  return (tmp.textContent || tmp.innerText || "").slice(0,100);
@@ -49,14 +64,17 @@
     },
 
     render: function() {
+    	var age = (((new Date).getTime() - this.model.get('created_at')) <= (6 * 60 * 60 * 1000))?moment(this.model.get('created_at')).fromNow():moment(this.model.get('created_at')).calendar();
     	$(this.el).addClass("document-item")
-      $(this.el).html("<strong class=document-item-title>"+ (this.model.get('title')?this.model.get('title'):"Untitled Note") +"</strong>")
+    	$(this.el).html("<span class=u-pull-right style='font-size: 11px;color: rgba(255,255,255,0.9);'>"+ age +"</span>")
+      $(this.el).append("<strong class=document-item-title>"+ (this.model.get('title')?this.model.get('title'):"Untitled Note") +"</strong>")
       $(this.el).append("<p class=document-item-content>"+ (this.model.getDescription()?this.model.getDescription():"<em>Empty note</em>") +"</p>")
       
       return this
     },
 
     unrender: function() {
+    	localStorage.removeItem(this.model.get('id'))
       $(this.el).remove()
     },
 
@@ -77,9 +95,10 @@
     },
     
     initialize: function(options) {
-      _.bindAll(this, 'render', 'appendItem', 'addItem')
+      _.bindAll(this, 'render', 'appendItem', 'addItem', 'removeItem')
 
       this.vent = options.vent
+      this.vent.bind("deleteNote", this.removeItem)
 
       this.collection.bind('add', this.appendItem)
 
@@ -87,6 +106,9 @@
 
       this.addItem({title:'Welcome to Evernote', content:'Hello dude, this guide is for you!'})
       this.addItem({title:'Saving documents in your account', content:'In Evernote you are able to store pdf\'s, images, microsoft documents, and much more!'})
+
+      this.collection.fetch()
+
     },
 
     render: function() {
@@ -99,10 +121,16 @@
     addItem: function(note){
       note = note?note:{};
       note['id'] = Math.ceil(Math.random()*(9999-1111)+1111)+ "-" +Math.ceil(Math.random()*(9999-1111)+1111)
+      note['updated_at'] = (new Date).getTime()
+      note['created_at'] = (new Date).getTime()
       var noteItem = new NoteItem();
       noteItem.set(note)
       this.collection.add(noteItem);
       return noteItem
+    },
+
+    removeItem: function(id){
+    	this.collection.remove(id);
     },
 
     appendItem: function(item) {
@@ -126,6 +154,7 @@
     events: {
     	"keyup .document-editor-content": "saveOnEnter",
     	"keyup .document-editor-title": "saveOnEnter",
+    	"click .delete": "deleteNote"
     },
 
 		initialize: function(options) {
@@ -140,13 +169,20 @@
 
 		reset: function() {
 			this.id = null
+      $(this.el).find(".document-editor-status").html('New document')
       $(this.el).find(".document-editor-title").val('')
 			$(this.el).find(".document-editor-content").html('')
+		},
+
+		deleteNote: function() {
+			this.vent.trigger("deleteNote", this.id)
+			this.reset()
 		},
 
 		load: function(item) {
 			this.id = item.get('id')
       $(this.el).find(".document-editor-title").val(item.get('title'))
+      $(this.el).find(".document-editor-status").html("Updated "+moment(item.get('updated_at')).fromNow())
 			$(this.el).find(".document-editor-content").html(item.get('content'))
 		},
 
@@ -169,6 +205,7 @@
 
     save: function(item) {
 			item.set(this.get())
+			item.set({updated_at: (new Date).getTime()})
 			item.save()
     },
 	})
