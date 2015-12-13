@@ -175,6 +175,7 @@ textarea {
   border-top: none;
 }
 .document-app .document-navbar .document-item {
+  min-height: 32px;
   padding: 10px 10px 10px 20px;
   border-top: 1px solid #2b2b2b;
 }
@@ -299,3 +300,7 @@ textarea {
 /* Larger than tablet */
 /* Larger than desktop */
 /* Larger than Desktop HD */
+[contentEditable=true]:empty:not(:focus):before {
+  content: attr(data-ph);
+  color: #c1c1c1;
+}

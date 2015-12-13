@@ -142,6 +142,7 @@ $color-text-muted = #aaa
 		.document-item:first-child
 			border-top none
 		.document-item
+			min-height 32px
 			padding 10px 10px 10px 20px
 			border-top 1px solid #2B2B2B//#F1F1F1
 			.document-item-title
@@ -243,3 +244,4 @@ $color-text-muted = #aaa
 
 /* Larger than Desktop HD */
 // @media (min-width: 1200px) {}
+[contentEditable=true]:empty:not(:focus):before{content:attr(data-ph);color:#c1c1c1;}
