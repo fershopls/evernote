@@ -1,0 +1,27 @@
+{
+  "name": "Evernote",
+  "authors": [
+    "Fernando Muñoz <shaaf4ever@gmail.com>"
+  ],
+  "description": "Testing backbone",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.3",
+    "font-awesome": "fontawesome#~4.5.0",
+    "jquery": "~2.1.4",
+    "moment": "~2.10.6",
+    "normalize-css": "normalize.css#~3.0.3",
+    "skeleton": "~2.0.4"
+  }
+}

@@ -3,7 +3,7 @@
 var Evernote = (function($){
 
   Backbone.sync = function (method, model, options) {
-    console.log(" -- SYNC ["+method+"] --", model, ' options: ',options)
+  //   console.log(" -- SYNC ["+method+"] --", model, ' options: ',options)
   }
 
   var NoteModel = Backbone.Model.extend({
@@ -25,12 +25,35 @@ var Evernote = (function($){
         return (tmp.textContent || tmp.innerText || "").slice(0,120);
     },
 
+    sync: function(method, model, options) {
+      console.log(" -- SYNC ["+method+"] --", model, ' options: ',options)
+      switch (method) {
+        case "update":
+          localStorage.setItem(model.id, JSON.stringify(model.toJSON()))
+          break;
+        case "delete":
+          localStorage.removeItem(model.id)
+          break;
+      }
+    },
+
   })
 
 
 
   var NoteCollection = Backbone.Collection.extend({
-     model: NoteModel
+     model: NoteModel,
+
+    sync: function(method, model, options) {
+      switch (method) {
+        case "read":
+          $.each(localStorage, function(key, val){
+            /^[0-9]{4}-[0-9]{4}$/.test(key) && model.add(JSON.parse(val));
+          });
+          break;
+      }
+    },
+
   });
 
 
@@ -54,8 +77,8 @@ var Evernote = (function($){
       var age = (((new Date).getTime() - this.model.get('created_at')) <= (6 * 60 * 60 * 1000))?moment(this.model.get('created_at')).fromNow():moment(this.model.get('created_at')).calendar();
       $(this.el).addClass("document-item")
       $(this.el).html("<span class=u-pull-right style='font-size: 11px;color: rgba(255,255,255,0.9);'>"+ age +"</span>")
-      $(this.el).append("<strong class=document-item-title>"+ (this.model.has('title')?this.model.get('title'):"Untitled Note") +"</strong>")
-      $(this.el).append("<p class=document-item-content>"+ (this.model.has('content')?this.model.description():"<em>Empty note</em>") +"</p>")
+      $(this.el).append("<strong class=document-item-title>"+ (this.model.get('title')?this.model.get('title'):"Untitled Note") +"</strong>")
+      $(this.el).append("<p class=document-item-content>"+ (this.model.get('content')?this.model.description():"<em>Empty note</em>") +"</p>")
       
       return this
     },

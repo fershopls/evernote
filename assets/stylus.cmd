@@ -1,0 +1,1 @@
+C:\Users\XaZal\AppData\Roaming\npm\stylus stylus -w -o css
