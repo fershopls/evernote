@@ -1,0 +1,8 @@
+// User interface javascript
+
+$(".document-menu-toggle").on('click', function(){
+  if ($(".document-item-container").hasClass("document-item-container-hidden"))
+    $(".document-item-container").animate({"height":"400px"}, 400, "swing", function(){  $(".document-item-container").removeClass("document-item-container-hidden");  });
+  else
+    $(".document-item-container").animate({"height":"0px"}, 400, "swing", function(){  $(".document-item-container").addClass("document-item-container-hidden");  });
+})
