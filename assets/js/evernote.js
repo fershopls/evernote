@@ -1,8 +1,9 @@
 // evernote.js
+
 var Evernote = (function($){
 
-  Backbone.sync = function (method, model, success, error) {
-    console.log("SYNC ["+method+"]", model)
+  Backbone.sync = function (method, model, options) {
+    console.log(" -- SYNC ["+method+"] --", model, ' options: ',options)
   }
 
   var NoteModel = Backbone.Model.extend({
@@ -53,8 +54,8 @@ var Evernote = (function($){
       var age = (((new Date).getTime() - this.model.get('created_at')) <= (6 * 60 * 60 * 1000))?moment(this.model.get('created_at')).fromNow():moment(this.model.get('created_at')).calendar();
       $(this.el).addClass("document-item")
       $(this.el).html("<span class=u-pull-right style='font-size: 11px;color: rgba(255,255,255,0.9);'>"+ age +"</span>")
-      $(this.el).append("<strong class=document-item-title>"+ (this.model.get('title')?this.model.get('title'):"Untitled Note") +"</strong>")
-      $(this.el).append("<p class=document-item-content>"+ (this.model.description()?this.model.description():"<em>Empty note</em>") +"</p>")
+      $(this.el).append("<strong class=document-item-title>"+ (this.model.has('title')?this.model.get('title'):"Untitled Note") +"</strong>")
+      $(this.el).append("<p class=document-item-content>"+ (this.model.has('content')?this.model.description():"<em>Empty note</em>") +"</p>")
       
       return this
     },
@@ -103,8 +104,7 @@ var Evernote = (function($){
       data['updated_at'] = (new Date).getTime()
       data['created_at'] = (new Date).getTime()
       // Create new NoteModel & store it in collection
-      var note = new NoteModel();
-      note.set(data)
+      var note = new NoteModel(data);
       this.collection.add(note);
       if (NoteEditorSelf)
         NoteEditorSelf.id = note.id
@@ -193,11 +193,13 @@ var Evernote = (function($){
   })
 
 
-  var vent = _.extend({}, Backbone.Events)
+
   var note = {}
+
+  note['vent']       = _.extend({}, Backbone.Events)
   note['collection'] = new NoteCollection();
-  note['list']       = new NoteListView({collection: note['collection'], vent: vent});
-  note['editor']     = new NoteEditorView({collection: note['collection'], vent: vent});
+  note['list']       = new NoteListView({collection: note.collection, vent: note.vent});
+  note['editor']     = new NoteEditorView({collection: note.collection, vent: note.vent});
 
   return note
 
